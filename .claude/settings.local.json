@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Bash(npm run *)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(node -e \"require\\('playwright'\\)\")",
+      "Bash(npx playwright *)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/login)",
+      "Bash(npx kill-port *)",
+      "Bash(xargs grep -l \"middleware.ts\")",
+      "Bash(taskkill /PID 17368 /F)",
+      "PowerShell(Stop-Process *)",
+      "Bash(curl *)",
+      "Bash(start *)",
+      "Bash(npx next *)",
+      "Bash(Remove-Item *)",
+      "Bash(Start-Sleep -Seconds 3)",
+      "Bash(Get-Content \"C:\\\\Users\\\\drfez\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-drfez-ProjetoAPPFinanceiro\\\\9ad645f0-937c-4891-9067-0210e2405b11\\\\tasks\\\\bcqt06qfr.output\" -Tail 15)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'feat: add currency formatting to transaction amount field *)"
+    ]
+  }
+}
